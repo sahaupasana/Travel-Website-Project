@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100px;
+}
+.header ,main,footer{
+    margin: 0 8rem;
+}
+ .navbar{
+    background-color: rgb(7, 7, 80);
+    height: 70px;
+    padding: 1.5rem 8rem;
+}
+
+ .navbar h2{
+    float: left;
+    color: white;
+    /* margin-bottom: 50px; */
+}
+.navbar ul{
+    float: right;
+}
+
+.navbar .item{
+    display: inline-block;
+    margin: 8px;
+
+}
+ .navbar a{
+    color:white;
+    text-decoration:none;
+}
+ .navbar a:hover{
+    text-decoration: underline;
+}
+.clearbox{
+clear: both;
+}
+/* styling the original contact page */
+
+.sec{
+    padding: 0 8rem;
+    height:95vh;
+    background-color:rgb(231, 224, 224);
+    
+}
+.sec .left{
+    width: 45%;
+    height:75%;
+    float: left;
+    padding:1rem 1.5rem;
+    margin-top: 2rem;
+    background-color:white;
+}
+.sec .right{
+    width: 45%;
+    height:75%;
+    float: right;
+    padding:1rem 1.5rem;
+    margin-top: 2rem;
+    background-color: white;
+}
+.sec .left img{
+    height: 50%;
+    width:99%;
+}
+.sec .left i{
+    color:rgb(231, 34, 66);
+}
+input{
+    width:100%;
+    text-align: center;
+}
+
+.sec .right h2{
+    border-bottom: 3px solid rgb(231, 34, 66);
+    margin-bottom: 1rem;
+}
+.sec .right textarea{
+    width: 100%;
+}
